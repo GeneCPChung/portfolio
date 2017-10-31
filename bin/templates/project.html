@@ -1,0 +1,31 @@
+
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Portfolio Gene CP Chung</title>
+<link rel="stylesheet" type="text/css" href="./project-styles.css" />
+<link rel="stylesheet" type="text/css" href="./project-layout.css" />
+</head>
+
+<body>
+
+	<header>
+		<h1>My Project</h1>
+	</header>
+	<div th:each="project: ${projects}">
+		<h2 th:text="${'Project Number: ' + project.id}"></h2>
+		<h2 th:text="${project.projCate}"></h2>
+		<h2 th:text="${project.projTitle}"></h2>
+		<section>
+		<img id="img" th:src="${project.projImage}"></img>
+		<h2 th:text="${project.projCont}"></h2>
+		</section>		
+		<section id="back">
+		<a href="http://localhost:8080/projects">Back to home</a>
+		</section>
+	</div>
+
+</body>
+</html>

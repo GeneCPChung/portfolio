@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>The Old Coder</title>
+<link rel="stylesheet" type="text/css" href="./project-styles.css" />
+<link rel="stylesheet" type="text/css" href="./project-layout.css" />
+
+</head>
+
+<body>
+	<div class="header">
+		<h1>Gene's List of Projects</h1>
+	</div>
+
+	<div class="container">
+		<a th:each="project: ${projects}"
+			th:href="@{/project(id=${project.id})}"><img id="img"
+			th:src="${project.projImage}"></img></a>
+	</div>
+</body>
+</html>

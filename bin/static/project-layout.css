@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 300px;
+	max-width: 800px;
+}
+
+.coverPhotos {
+	height: 288px;
+	width: 288px;
+}
+
+
+.header {
+	background: radial-gradient(circle at center, #F4F3F4, #7A6D67, #3F3539);
+	border-radius: 10px;
+	border: 2px solid #F4F3F4;
+	padding: 10px;
+	width: auto;
+}
+
+#img {
+	width: 288px;
+	height: 288px;
+}
+
