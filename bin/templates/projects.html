@@ -3,7 +3,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-<title>The Old Coder</title>
+<title>Portfolio for Gene Chung</title>
 <link rel="stylesheet" type="text/css" href="./project-styles.css" />
 <link rel="stylesheet" type="text/css" href="./project-layout.css" />
 
@@ -11,12 +11,14 @@
 
 <body>
 	<div class="header">
-		<h1>Gene's List of Projects</h1>
+	<img id="header-resize" src="/images/portfoliopicture.jpg"></img>
+		<h1>Gene CP Chung</h1>
+		<h2 class="sm-header">Jr Web Developer</h2>
 	</div>
 
 	<div class="container">
 		<a th:each="project: ${projects}"
-			th:href="@{/project(id=${project.id})}"><img id="img"
+			th:href="@{/project(id=${project.id})}"><img 
 			th:src="${project.projImage}"></img></a>
 	</div>
 </body>

@@ -1,4 +1,17 @@
 
+#back {
+	font-size: 150%;
+	text-align: center;
+}
+
+#header-resize {
+max-height: 55%;	
+max-width: 25%;
+}
+
+.sm-header {
+	color: #F4F3F4;
+}
 
 body {
 	background-image: radial-gradient(circle at center, rgba(63, 53, 57, 0.75),
@@ -11,14 +24,22 @@ body {
 }
 
 h1 {
+	color: #F4F3F4;
 	font-family: Times New Roman;
-	text-align: center;
+	text-align: left;
 }
 
 h2 {
 	color: #3F3539;
 	font-family: Times New Roman;
 	font-size: 150%;
+}
+
+img {
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	width: 100%;
 }
 
 p {
@@ -31,10 +52,6 @@ section {
 	font-size: 1.25em;
 }
 
-#back {
-	font-size: 150%;
-	text-align: center;
-}
 
 
 
