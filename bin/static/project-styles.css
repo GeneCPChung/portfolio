@@ -1,60 +1,16 @@
-
-#back {
-	font-size: 150%;
-	text-align: center;
+:root {
+	--row-height: 30px;
+	--border-radius: 5px;
 }
 
-#header-resize {
-max-height: 55%;	
-max-width: 25%;
+.grid-item:nth-child(even){
+	background-color: blue;
+	height: var(--row-height);
+	border-radius: var(--border-radius);
 }
 
-.sm-header {
-	color: #F4F3F4;
+.grid-item:nth-child(odd){
+	background-color: green;
+	height: var(--row-height);
+border-radius: var(--border-radius);
 }
-
-body {
-	background-image: radial-gradient(circle at center, rgba(63, 53, 57, 0.75),
-		#F4F3F4), url("/images/movie-reel.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-opacity: 0.35;
-}
-
-h1 {
-	color: #F4F3F4;
-	font-family: Times New Roman;
-	text-align: left;
-}
-
-h2 {
-	color: #3F3539;
-	font-family: Times New Roman;
-	font-size: 150%;
-}
-
-img {
-	border-radius: 10px;
-	display: block;
-	margin: auto;
-	width: 100%;
-}
-
-p {
-	color: #3F3539;
-	font-size: 1.25em;
-}
-
-section {
-	text-align: center;
-	font-size: 1.25em;
-}
-
-
-
-
-
-
-

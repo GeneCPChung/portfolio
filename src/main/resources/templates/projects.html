@@ -3,23 +3,19 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-<title>Portfolio for Gene Chung</title>
-<link rel="stylesheet" type="text/css" href="./project-styles.css" />
-<link rel="stylesheet" type="text/css" href="./project-layout.css" />
-
+	<title>Portfolio for Gene Chung</title>
+	<link rel="stylesheet" type="text/css" href="./project-styles.css" />
+	<link rel="stylesheet" type="text/css" href="./project-layout.css" />
 </head>
-
 <body>
-	<div class="header">
-	<img id="header-resize" src="/images/portfoliopicture.jpg"></img>
-		<h1>Gene CP Chung</h1>
-		<h2 class="sm-header">Jr Web Developer</h2>
-	</div>
 
 	<div class="container">
-		<a th:each="project: ${projects}"
-			th:href="@{/project(id=${project.id})}"><img 
-			th:src="${project.projImage}"></img></a>
+		<section class="grid-item grid-item-1">1</section>
+		<section class="grid-item grid-item-2">2</section>
+		<section class="grid-item grid-item-3">3</section>
+		<section class="grid-item grid-item-4">4</section>
+		<section class="grid-item grid-item-5">5</section>
 	</div>
+
 </body>
 </html>

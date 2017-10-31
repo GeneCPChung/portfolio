@@ -4,31 +4,13 @@
     padding: 0;
 }
 
-
+img {
+	max-width: 100%;
+}
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 10px;
-	height: calc(100vh - (var(--grid-gap) * 2));
-	margin: 2em auto auto;
-	width: 45%;
+	 margin: 1rem auto;
+	grid-template-rows: 2fr 2fr 2fr 2fr 2fr;*/
 }
-
-.header {
-	display: grid;
-	background: radial-gradient(circle at center, #F4F3F4, #7A6D67, #3F3539);
-	border-radius: 10px;
-	border: 2px solid #F4F3F4;
-	
-	margin: 1em;
-	padding: 10px;
-	
-}
-
-.main {
-	display: grid;
-	
-}
-
 
