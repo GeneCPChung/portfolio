@@ -255,3 +255,9 @@ justify-content: space-around;
     align-self: flex-end;
 }*/
 	
+
+    ABOUT
+Front-End Development student currently working on projects involving HTML, CSS, Bootstrap and JQuery
+
+BLOG
+To help keep me motivated, I've started a blog to track my coding journey. I'll try to keep these updated as much as possible. You can visit the blog Here
