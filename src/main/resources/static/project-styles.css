@@ -1,16 +1,33 @@
 :root {
-	--row-height: 30px;
-	--border-radius: 5px;
+	--border-radius: 10px;
 }
 
-.grid-item:nth-child(even){
-	background-color: blue;
-	height: var(--row-height);
+.grid-item:nth-child(even) {
+	background-color:;
 	border-radius: var(--border-radius);
 }
 
-.grid-item:nth-child(odd){
-	background-color: green;
-	height: var(--row-height);
-border-radius: var(--border-radius);
+.grid-item:nth-child(odd) {
+	background-color:;
+	border-radius: var(--border-radius);
+}
+
+a {
+	border: 2px solid #F4F3F4;
+	color: yellow;
+	text-decoration: none;
+}
+
+.grid-item-1 {
+	font-family: Georgia;
+}
+
+#header-text-color {
+	color: #F4F3F4;
+	margin-left: 1rem;
+}
+
+header {
+	background: radial-gradient(circle at center, #F4F3F4, #7A6D67, #3F3539);
+	border-radius: var(--border-radius)
 }

@@ -105,5 +105,153 @@ section {
 	</div>
 
 
+///////////////////////////////////////////////////////
 
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+ol,
+ul {
+    padding: 0;
+}
+
+.card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+@media(min-width: 768px){
+ header {
+    flex-direction: row;
+    grid-column: 1 / -1;
+    justify-content: space-between;
+ }
+nav ul {
+    -ms-align-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+nav ul li {
+    margin: 5px;
+}
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 3fr 2fr;
+}
+}
+
+/*
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+aside,
+footer,
+header,
+main {
+    padding: 17px;
+}
+footer {
+    grid-column: 1 / -1;
+}
+header {
+    grid-column: 1 / -1;
+}
+nav {
+    padding: 5px;
+}
+    nav li {
+        margin: 3px;
+    }
+.btn {
+    margin: 5px;
+    padding: 5px 9px;
+}
+.card {
+    margin: 11px;
+    padding: 19px;
+}
+    .card p {
+        padding: 5px;
+    }
+.container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 75px auto 120px;
+    min-height: 100vh;
+}
+.social-media {
+    padding: 5px 9px;
+}
+/*
+** FLEXBOX CHALLENEGE
+** Complete all of the following challenges using flexbox
+*/
+/*/*
+/* Put the company logo on the left side of the header and the nav on the right */
+/*.btn {
+    align-self: flex-start;
+    margin-top: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}*/
+/* Distribute the navigation items in a horizontal line 
+ul {
+    display: flex;
+ justify-content: flex-end;   
+}
+/* Distribute cards in 'main' horizontally and make sure they all have the same height */
+/*main .cards {
+    display: flex;
+    align-items: stretch;
+    
+    flex-direction: row;
+}
+main .cards .card {
+    display: flex;
+    flex: 1 250px;
+    flex-direction: column;
+}
+main .cards .card p {
+    margin-bottom: 1em;
+}*/
+
+/* Distribute cards in aside vertically and make sure any space left in the container is around the elements */
+/*aside {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}*/
+/* In the footer, center the copyright and place the social-media links to the right */
+/*small {
+    display: flex;
+    justify-content: center;
+}
+.social-media {
+    align-self: flex-end;
+}*/
 	
