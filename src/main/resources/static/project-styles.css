@@ -12,12 +12,6 @@
 	border-radius: var(--border-radius);
 }
 
-a {
-	border: 2px solid #F4F3F4;
-	color: yellow;
-	text-decoration: none;
-}
-
 .grid-item-1 {
 	font-family: Georgia;
 }
@@ -25,6 +19,12 @@ a {
 #header-text-color {
 	color: #F4F3F4;
 	margin-left: 1rem;
+}
+
+a {
+	border: 2px solid #F4F3F4;
+	color: yellow;
+	text-decoration: none;
 }
 
 header {
